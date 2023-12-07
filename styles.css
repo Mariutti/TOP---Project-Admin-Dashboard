@@ -262,3 +262,10 @@ p {
 .mini-icon {
 	width: 30px;
 }
+
+ul.aside-list > li {
+	display: grid;
+	grid-template-columns: 40px 1fr;
+	gap: 10px;
+	align-items: center;
+}
