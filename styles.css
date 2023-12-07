@@ -263,7 +263,7 @@ p {
 	width: 30px;
 }
 
-ul.aside-list > li {
+aside > ul > li {
 	display: grid;
 	grid-template-columns: 40px 1fr;
 	gap: 10px;
