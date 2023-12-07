@@ -71,6 +71,10 @@ aside > ul > li {
 	list-style: none;
 	font-size: 1.2rem;
 	font-weight: 600;
+	display: grid;
+	grid-template-columns: 40px 1fr;
+	gap: 10px;
+	align-items: center;
 }
 
 aside > ul {
@@ -263,9 +267,3 @@ p {
 	width: 30px;
 }
 
-aside > ul > li {
-	display: grid;
-	grid-template-columns: 40px 1fr;
-	gap: 10px;
-	align-items: center;
-}
